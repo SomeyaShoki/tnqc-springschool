@@ -51,7 +51,7 @@ def main():
         z_bit = 1
         state = np.einsum(P1, [0, 3], state, [3, 1, 2])
         state = state / np.linalg.norm(state)
-    print(rho, z_bit)
+    print(f"z_bit = {z_bit}")
 
     # 1番目のqubitを測定
     rho = np.einsum(state, [2, 0, 3], state.conj(), [2, 1, 3])
@@ -63,12 +63,11 @@ def main():
         x_bit = 1
         state = np.einsum(P1, [1, 3], state, [0, 3, 2])
         state = state / np.linalg.norm(state)
-    print(rho, x_bit)
+    print(f"x_bit = {x_bit}")
 
     # それぞれの測定結果 (z_bit, x_bit) 応じてBobは状態を操作
     if x_bit == 1:
         state = np.einsum(X, [2, 3], state, [0, 1, 3])
-    print(Z.size, state.size)
     if z_bit == 1:
         state = np.einsum(Z, [2, 3], state, [0, 1, 3])
 

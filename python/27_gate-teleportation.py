@@ -46,7 +46,7 @@ def main():
         bit = 1
         state = np.einsum(P1, [0, 2], state, [2, 1])
         state = state / np.linalg.norm(state)
-    print(rho, bit)
+    print(f"bit = {bit}")
 
     # 結果に応じてdataに補正をかける
     state = state[bit, :]

@@ -1,3 +1,6 @@
+#[allow(unused_imports)]
+use blas_src as _;
+
 pub mod plot;
 
 use ndarray::{Array1, Array2, ArrayBase, Data, Ix2, s};
