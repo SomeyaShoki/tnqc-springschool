@@ -7,8 +7,6 @@
   - tnqc-4.pdf: 大規模シミュレーション戦略
   - tnqc-5.pdf: 応用＋アドバンス話題
 
-- [data](data): 実習で使用するデータファイル
-
 - 実習コード
   - 言語
     - [python](python): Python実習コード
@@ -28,6 +26,9 @@
     - 27_gate-teleportation
     - 31_statevector2mps
     - 32_tebd
+    - 41_clifford (python only)
+
+- [data](data): 実習で使用するデータファイル
 
 - Python
   - 以下、`python`ディレクトリ内での実行を想定
