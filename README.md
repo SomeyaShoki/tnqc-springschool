@@ -4,8 +4,8 @@
   - [tnqc-1.pdf](tnqc-1.pdf): 次元の呪いと圧縮
   - [tnqc-2.pdf](tnqc-2.pdf): 量子回路をテンソルで書く
   - [tnqc-3.pdf](tnqc-3.pdf): MPSの時間発展
-  - tnqc-4.pdf: 大規模シミュレーション戦略
-  - tnqc-5.pdf: 応用＋アドバンス話題
+  - [tnqc-4.pdf](tnqc-4.pdf): 大規模シミュレーション戦略
+  - [tnqc-5.pdf](tnqc-5.pdf): 応用＋アドバンス話題
 
 - 実習コード
   - 言語
