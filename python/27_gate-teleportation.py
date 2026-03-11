@@ -58,7 +58,7 @@ def main():
 
     print(f"T|input> = {np.einsum(T, [0, 1], input, [1])}\n")
     print(
-        f"fidelity to T|input> = {np.abs(np.vdot(state, np.einsum(T, [0, 1], input, [1]))) ** 2:.6f}"
+        f"fidelity to T|input> = {np.abs(np.vdot(state, np.einsum(T, [0, 1], input, [1]))) ** 2:.9f}"
     )
 
 

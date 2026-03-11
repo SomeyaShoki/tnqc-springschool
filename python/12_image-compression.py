@@ -44,7 +44,8 @@ def main():
         plt.imshow(Ar, cmap="gray", vmin=0, vmax=255)
         plt.title(f"reconstructed image (rank {r})")
         plt.axis("off")
-        plt.show()
+        #pngで保存
+        plt.savefig(f"reconstructed_rank_{r}.png", bbox_inches="tight", dpi=150)
 
 
 if __name__ == "__main__":
